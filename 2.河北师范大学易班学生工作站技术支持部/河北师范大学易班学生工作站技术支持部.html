@@ -1,0 +1,185 @@
+<!--
+    Powered By nodeppt - This is probably the best web presentation tool so far!
+    version: 1.4.5
+    site: https://github.com/ksky521/nodeppt
+    date: 2018年12月1日
+-->
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>易班技术支持部首次培训见面会 - By 刘坤</title>
+    <link rel="stylesheet" media="all" href="./css/nodeppt.css">
+    <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="./css/phone.css">
+    
+    <link rel="stylesheet" href="./js/highlight/styles/monokai_sublime.css">
+    <link rel="stylesheet" href="./css/font-awesome.css">
+    
+<link rel="stylesheet" href="./css/theme.moon.css">
+</head>
+<body>
+<div class="slides">
+    <slides id="container">
+        <slide class="slide fill" style="background-image:url('./img/bg1.png')"><section class="slide-wrapper"><article class="flexbox vcenter">
+<h1>河北师范大学易班学生工作站技术支持部</h1>
+<h2>首次交流会</h2>
+
+</article></section></slide>
+<slide class="slide fill" style="background-image:url('./img/bg.jpg')"><section class="slide-wrapper"><hgroup>
+<h2>yiban</h2>
+
+</hgroup><article>
+
+<iframe data-src="http://www.yiban.cn" src="about:blank;"></iframe>
+</article></section></slide>
+<slide class="slide"><section class="slide-wrapper"><article>
+<h2>聊聊</h2>
+
+</article></section></slide>
+<slide class="slide"><section class="slide-wrapper"><hgroup>
+<h2>是什么</h2>
+
+</hgroup><article>
+
+<p><strong>一、工作内容</strong></p>
+<ol>
+<li>负责学校内部系统的运作保障、优化改进，以及与易班网络平台的技术对接</li>
+<li>解决师生日常使用易班的技术问题和操作问题</li>
+<li>根据本校的办学特色或特色学科建设，开发符合本校学生需求的特色功能应用及具有可复制、可推广性的全站应用</li>
+<li>负责学校二级学院及新生辅导员使用培训</li>
+<li>办公室技术维护</li>
+</ol>
+
+</article></section></slide>
+<slide class="slide"><section class="slide-wrapper"><article>
+<p><strong>二、部门考核制度</strong></p>
+<p>1) 采用小组责任制，内部人员进行分组，培训过后根据个人能力，性格进行分组，在分配任务时落实到每个小组，各小组部员未能及时在部长规定时间内将工作结果反馈给部长，一次扣3分</p>
+<p>2) 每小组每周需要上交一份工作报告，将本周所做工作进行总结，作为年底绩效考核的凭证，未交的组内成员一次扣1分</p>
+<p>3) 每周末开一次例会，将过去一周的工作进行总结，反省过程中出现的问题，然后将下一周的工作进行分配，主动提出上周工作出现的问题和解决方法人员一次加2分</p>
+<p>4) 有资金支出和请假制度加减分与工作规章相符</p>
+
+</article></section></slide>
+<slide class="slide"><section class="slide-wrapper"><article>
+<h2>为什么</h2>
+<p>易班的本质，一个集思想教育、生活服务、教育教学的新</p>
+<p>新媒体平台</p>
+
+</article></section></slide>
+<slide class="slide"><section class="slide-wrapper"><article>
+<h2>做什么</h2>
+<ul>
+<li><p>易班使用手册的逐步完善</p>
+<p>包括【易班app的使用手册fpd版、易班网课录制】</p>
+</li>
+<li><p>易班轻应用的开发及web开发</p>
+<p>包括【站内接入、轻应用开发】</p>
+</li>
+</ul>
+
+</article></section></slide>
+<slide class="slide"><section class="slide-wrapper"><article>
+<h2>怎么办</h2>
+
+</article></section></slide>
+<slide class="slide"><section class="slide-wrapper"><article>
+<h4>易班使用手册</h4>
+<ol>
+<li>由部长提议手册的目录，及落实时间大纲，报备人力资源部</li>
+<li>按章节目录进行完善</li>
+<li>确定相关编辑，校对、责任编辑</li>
+</ol>
+
+</article></section></slide>
+<slide class="slide"><section class="slide-wrapper"><article>
+<h4>易班轻应用的开发及web开发</h4>
+<p>学习+实战</p>
+
+</article></section></slide>
+<slide class="slide"><section class="slide-wrapper"><article>
+<h2>大框架</h2>
+
+</article></section></slide>
+<slide class="slide"><section class="slide-wrapper"><article>
+<h2>小功能</h2>
+
+</article></section></slide>
+<slide class="slide"><section class="slide-wrapper"><article>
+<h2>学习，知识，技能</h2>
+
+</article></section></slide>
+        
+
+        <!-- <slide class="slide logoslide dark nobackground">
+            <article class="flexbox vcenter">
+                <h2 style="color: white;">Powered By nodeppt v1.4.5</h2>
+            </article>
+        </slide> -->
+        <div class="slideTip" id="tip"></div>
+    </slides>
+</div>
+<canvas id="drawBoard" class="draw-board" width="900" height="700"></canvas>
+<div class="progress"><span id="progress"></span></div>
+<div id="_buttons">
+    <div class="_btn-box" id="_btn-box" style="display:none;">
+        <button class="fa fa-arrow-circle-left" id="_btn-prev"></button>
+        <button class="fa fa-arrow-circle-right" id="_btn-next"></button>
+        <button class="fa fa-paint-brush" id="_btn-brush"></button>
+        <button class="fa fa-compress" id="_btn-overview" data-toggle="fa fa-expand"></button>
+    </div>
+    <button class="fa fa-bars" id="_btn-bar"  data-toggle="fa fa-close"></button>
+</div>
+<script src="./js/mixjs/lib/mix.0.3.0.min.js"></script>
+<script>
+    var ASSET_RELATIVE_DIR = ".";
+</script>
+<script>
+var base = location.protocol + '//' + location.host;
+
+var path = (location.pathname + '#').split('/').filter(function(v){
+    return !!v;
+});
+path.pop();
+path = path.join('/');
+if (typeof ASSET_RELATIVE_DIR === 'string') {
+    path = path + '/' + ASSET_RELATIVE_DIR;
+}
+MixJS.config({
+    baseURL: [ base, path, 'js'].join('/')+'/'
+});
+
+</script>
+<script src="./js/mixjs/lib/event/broadcast.js"></script>
+<script src="./js/nodeppt.js"></script>
+<script>
+Slide.init({
+    containerID: 'container',
+    drawBoardID: 'drawBoard',
+    slideClass: '.slide',
+    buildClass: '.build',
+    progressID: 'progress',
+    transition: 'cards',
+    width: 1100,
+    dir: './',
+    
+    //打开下面的注释就开启postMessage方式
+    //访问网址127.0.0.1:8080/ppt/demo#client
+    control:{
+        type: 'postMessage',
+        args:{
+            isControl:  false
+        }
+    },
+    
+    tipID: 'tip'
+});
+MixJS.loadJS('highlight/highlight.pack.js',function(){
+    hljs.tabReplace = '  ';
+    hljs.initHighlightingOnLoad();
+});
+</script>
+<script src="./js/demo.js"></script>
+<link rel="stylesheet" href="./css/demo.css">
+
+<!--placeholder-->
+</body>
+</html>
