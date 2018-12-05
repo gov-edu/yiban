@@ -76,8 +76,10 @@ $result = YBOpenApi::getInstance()->request($url, $param, $isPOST, $applyToken);
   APPID为应用的AppID，在管理中心应用信息中可见
   CALLBACK为授权回调地址（站内应用与轻应用类型时为站内地址，等同授权回调地址），在管理中心应用信息中可见
   STATE为开发者自行设定的防跨站伪造参数
+
   2、如果用户同意授权，页面重定向至应用端设置的授权回调地址并带上用户令牌 CALLBACK?code=CODE
 *如果应用类型是站内应用或轻应用，则页面重定向至站内地址并post方式提供访问用户授权信息， 重新回到判断是否授权的流程，不用后续的授权操作。
+
   3、换取用户授权凭证access_token，调用如下接口
 https://oauth.yiban.cn/token/info?code=CODE&client_id=APPID&client_secret=APPSECRET&redirect_uri=CALLBACK
 其中：
