@@ -13,7 +13,7 @@
 
 #### 5.[易班技术培训开篇--开发框架](https://github.com/gov-edu/yiban/tree/master/5.%E6%98%93%E7%8F%AD%E6%8A%80%E6%9C%AF%E5%9F%B9%E8%AE%AD%E5%BC%80%E7%AF%87--%E5%BC%80%E5%8F%91%E6%A1%86%E6%9E%B6)
 
-#### 6.易班OAuth 2.0认证
+#### 6.[易班OAuth 2.0认证](https://github.com/gov-edu/yiban/tree/master/6.%E6%98%93%E7%8F%ADOAuth%202.0%E8%AE%A4%E8%AF%81)
 
 #### 7.
 
