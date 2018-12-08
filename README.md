@@ -1,7 +1,5 @@
 # hebtu·yiban·open
-![](.\img\background-img.png)
-
-
+![](https://github.com/gov-edu/yiban/blob/master/img/background-img.png)
 
 #### 1.易班工作站技术部[工作室]建设
 
