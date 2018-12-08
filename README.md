@@ -7,7 +7,7 @@
 
 #### 2.[易班发展中心第一次全会 站长](http://1.liushikun.vip) 
 
-#### 3.[易班技术培训开篇--网站开发须知的123]()
+#### 3.[易班技术培训开篇--网站开发须知的123](https://github.com/gov-edu/yiban/tree/master/3.%E6%98%93%E7%8F%AD%E6%8A%80%E6%9C%AF%E5%9F%B9%E8%AE%AD%E5%BC%80%E7%AF%87--%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91%E9%A1%BB%E7%9F%A5%E7%9A%84123)
 
 #### 4.[学生手册考试分析](https://github.com/gov-edu/yiban/tree/master/4.%E5%AD%A6%E7%94%9F%E6%89%8B%E5%86%8C%E8%80%83%E8%AF%95%E5%88%86%E6%9E%90)
 
