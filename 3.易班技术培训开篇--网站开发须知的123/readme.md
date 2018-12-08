@@ -118,6 +118,8 @@ web前端的发展很快，从事这一行业一定要有快速学习能力和�
 
 前面的你也要学下去，才有的商量
 
+![](https://github.com/gov-edu/yiban/blob/master/img/hdgcs.png)
+
 ![](K:\gov-edu-yiban\yiban\img\hdgcs.png)
 
 ------
